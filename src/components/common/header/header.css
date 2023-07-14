@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.header-logo {
+    height: 27px;
+    max-width: 140px;
+    font-weight: 900;
+    margin-right: 24px;
+}
+
+.calender-icon {
+    margin-right: 7px;
+}
+
+.header-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.header-date-time {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--border-white);
+    width: 60%;
+    background-color: var(--primary-bg);
+    justify-content: space-between;
+}
+
+.date {
+    display: flex;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.date-time-separator {
+    height: 22px;
+    border: 0.5px solid var(--fine-grey);
+}
+
+.time {
+    display: flex;
+    flex: 2;
+}
+
+.clock-icon {
+    margin-right: 6px;   
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 15%;
+}
+
+.header-profile-image {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.header-username {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+.profile-options-icon {
+    font-size: 16px;
+    cursor: pointer;
+}
