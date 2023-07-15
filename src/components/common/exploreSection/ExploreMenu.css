@@ -1,0 +1,15 @@
+.menu-section {
+    margin-top: 20px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.hl {
+    border: 1.8px solid rgb(231, 231, 231);
+    margin-bottom: 18px;
+}    
+
+.menu-category-name {
+    font-weight: 700;
+    font-size: 18px;
+}

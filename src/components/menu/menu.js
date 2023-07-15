@@ -2,6 +2,8 @@ import React from 'react'
 import "./menu.css"
 import Filters from '../common/filters/filters';
 import DishesCollection from './dishesCollections/DishesCollection';
+import ExploreMenu from '../common/exploreSection/ExploreMenu';
+import { dishes } from '../../data/MenuData';
 
 const cuisinesFilters = [
   {
@@ -26,6 +28,8 @@ const cuisinesFilters = [
   },
 ];
 
+const menuList = dishes;
+
 const Menu = () => {
   return (
     <div>
@@ -34,6 +38,7 @@ const Menu = () => {
       </div>
       <div>
         <DishesCollection />
+        <ExploreMenu list={menuList} />
       </div>
     </div>
   )
