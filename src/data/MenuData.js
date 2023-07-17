@@ -1,3 +1,3 @@
 export const dishes = [
-    { "name": "Masala Mughlai", "rating": 4.2, "description": "Chicken fried in deep tomato sauce with delicious spices", "equipments": [ "Refrigerator", "Microwave" ], "image": "https://img.freepik.com/free-photo/top-view-delicious-corn-dog_23-2149387975.jpg", "id": 1 }, { "name": "Masala Paneer", "rating": 4.3, "description": "Paneer tossed in gravy", "equipments": [ "Microwave" ], "image": "https://img.freepik.com/free-photo/top-view-delicious-corn-dog_23-2149387975.jpg", "id": 2 }
-]
+    { "name": "Masala Mughlai", "rating": 4.2, "description": "Chicken fried in deep tomato sauce with delicious spices", "equipments": [ "Refrigerator", "Microwave" ], "image": "https://media1.agfg.com.au/images/recipes/1401/hero-300.jpg", "id": 1 }, { "name": "Masala Paneer", "rating": 4.3, "description": "Paneer tossed in gravy", "equipments": [ "Microwave" ], "image": "https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3.jpg", "id": 2 }
+]  

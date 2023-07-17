@@ -51,14 +51,11 @@ const foodItems = [
 
 
 const settings = {
-    infinite: false,
+    infinite: true,
     slidesToShow: 5,
     swipeToSlide: true,
     speed: 500,
     arrows: false,
-    
-    
-      
 };
 
 
@@ -66,7 +63,7 @@ const DishesCollection = () => {
   return (
     <div className='dishes-collection'>
       <div className='max-width'>
-        <div className='collection-title'>Popular Dishes</div>
+        <div className='collection-title'><h2>Popular Dishes</h2></div>
         <Slider {...settings}>
             {foodItems.map((item) => {
                 return <DishItem item={item} />

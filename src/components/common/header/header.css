@@ -10,11 +10,14 @@
     height: 27px;
     max-width: 140px;
     font-weight: 900;
-    margin-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 16px;
 }
 
 .calender-icon {
     margin-right: 7px;
+    color: rgb(23, 23, 72);
 }
 
 .header-right {
@@ -54,9 +57,10 @@
 }
 
 .clock-icon {
-    margin-right: 6px;   
+    margin-right: 6px;
+    color: rgb(23, 23, 72);   
 }
-
+    
 .profile-wrapper {
     display: flex;
     justify-content:flex-end;

@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <div className="max-width header">
-      <b className="header-logo"> ChefKart </b>
+      <span className="header-logo"> ChefKart </span>
       <div className="header-right">
         <div className="header-date-time">
           <div className="date absolute-center">

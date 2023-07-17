@@ -1,0 +1,82 @@
+.item-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 150px;
+    padding: 2px 0px;
+    margin-top: 36px;
+}
+
+.item-info {
+    width: 300px;
+}
+
+.item-image img {
+    width: 140px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.name-rating {
+    display:flex;
+}
+.rating {
+    margin-left: 16px;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #ffff;
+    background-color: rgb(60, 171, 60);
+}
+
+.star-rating {
+    margin-left: 3px;
+    font-size: 8px;
+}
+
+.equipments {
+    font-size: 8px;
+    margin-top: 8px;
+}
+.equipment-item {
+    margin-right: 8px;
+}
+.vl {
+    border-left: 1px solid var(--fine-grey);
+    height: 21px;
+    margin: 0 9px;
+}
+.item-description {
+    color: grey;
+    font-size: 14px;
+}
+
+.hl-2 {
+    border: 1px solid rgb(231, 231, 231);
+    margin: 12px 0px;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.ingredients-section {
+    display: flex;
+    align-items: center;
+}
+.ingredients {
+    font-size: 11px;
+    font-weight: 700;
+}
+.ingredients-box {
+    display: grid;
+    margin-left: 9px;
+}
+.view-ingredients {
+    color: orangered;
+    cursor: pointer;
+    font-size: 8px;
+}

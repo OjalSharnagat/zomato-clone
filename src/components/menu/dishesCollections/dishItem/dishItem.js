@@ -6,13 +6,14 @@ const DishItem = ({item}) => {
     <div>
          <div className='dish-item-cover'>
             <div className='dish-item-overlay'>
-              <h3 className='dish-item-title'>{item.title}</h3>
+              <span className='dish-item-title'>{item.title}</span>
             </div>
             <img 
               src={item.cover} 
               className='dish-item-image' 
               alt={item.title} 
             />
+            <div className='gradient-bg'></div>
          </div>
     </div>
   );
